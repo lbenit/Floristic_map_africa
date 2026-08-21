@@ -21,8 +21,8 @@ setwd("//groups.geos.ed.ac.uk/landteam/people/lorena_benitez/UMAP_maps")
 # Load data
 data<-read.csv('all_data_umap_clusters_parametric.csv')
 locations<-read.csv('selected_seosaw_plots.csv')
-train<-read.csv("training_data_embed_cluster_predicters_16_3.csv")
-test<-read.csv("testing_data_embed_cluster_predicters_16_3.csv")
+train<-read.csv("training_data_embed_cluster_predicters.csv")
+test<-read.csv("testing_data_embed_cluster_predicters.csv")
 
 genera<-read.csv('UMAP_genus_scores_all_points.csv')
 
