@@ -12,7 +12,7 @@ The main analysis was completed in colab with python and the google earth engine
 
 
 
-\*I recommend viewing the scripts by running them in colab. Just click on the script in GitHub and there should be an 'Open in Colab' button at the top of the script\*
+**I recommend viewing the scripts by running them in Colab. Just click on the script in GitHub and there should be an 'Open in Colab' button at the top of the script.**
 
 
 
