@@ -12,7 +12,15 @@ The main analysis was completed in colab with python and the google earth engine
 
 
 
-I recommend viewing the scripts by running them in colab.
+\*I recommend viewing the scripts by running them in colab. Just click on the script in GitHub and there should be an 'Open in Colab' button at the top of the script\*
+
+
+
+
+
+
+
+
 
 
 
@@ -22,9 +30,13 @@ Clean the dataset and create a relative abundance matrix using basal area.
 
 
 
+
+
 02\_UMAP
 
 Use UMAP to reduce to three dimensions. The clustering is also completed in this script.
+
+
 
 
 
@@ -34,9 +46,13 @@ Uses indicspecies R package to identify indicator genera for the clusters.
 
 
 
+
+
 04\_Extract\_predictors\_to\_plots
 
 Extracts environmental variables to the plot locations for modelling.
+
+
 
 
 
@@ -46,9 +62,13 @@ This combines the data generated in 02 and 04 into a single dataset.
 
 
 
+
+
 06\_Figure\_3
 
 Generates figure 3
+
+
 
 
 
@@ -58,9 +78,13 @@ Splits the plot datasets into 70% training and 30% validation
 
 
 
+
+
 08\_Cross\_validation\_4\_clusters
 
 Cross validation using plots assigned to four clusters. Not in paper, but extra reference information.
+
+
 
 
 
@@ -70,15 +94,23 @@ Random forest modelling with different variable combinations and assessment usin
 
 
 
+
+
 10\_Generate\_maps
 
 Uses the earth engine python API to generate the maps in earth engine.
 
 
 
+
+
 11\_Map\_visualization
 
 This code can be used to interactively view the final maps reported in the paper.
+
+
+
+
 
 
 
